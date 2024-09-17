@@ -34,7 +34,8 @@ ul {
 }
 
 #logo {
-  font-family: "Inter", sans-serif;
+  font-family: "Merriweather";
+  font-weight: bold;
   font-size: 1.5rem;
   border-radius: 4px;
 }
@@ -190,4 +191,27 @@ ul {
 .error {
   text-align: center;
   margin-top: 3rem;
+}
+
+.return-button {
+  display: flex;
+  gap: 1rem;
+}
+
+.return-button a {
+  text-decoration: none;
+  color: #ccccc1;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.return-button a:hover {
+  color: #e5e5e1;
+}
+
+.filter-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
