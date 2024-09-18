@@ -8,7 +8,7 @@ export default async function NewsPage() {
   return (
     <>
       <span className="filter-nav">
-        <h1>News Page</h1>
+        <h1>News</h1>
         <ReturnButton />
       </span>
       <NewsList news={news} />
