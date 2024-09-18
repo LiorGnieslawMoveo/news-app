@@ -166,7 +166,6 @@ ul {
 #archive-header ul {
   display: flex;
   gap: 1rem;
-  margin-bottom: 2rem;
 }
 
 #archive-header ul a {
@@ -193,25 +192,25 @@ ul {
   margin-top: 3rem;
 }
 
-.return-button {
-  display: flex;
-  gap: 1rem;
-}
-
-.return-button a {
-  text-decoration: none;
-  color: #ccccc1;
-  border-radius: 4px;
+.return-button button {
+  font-family: "Merriweather", serif;
   font-weight: bold;
-  font-size: 1.25rem;
+  text-decoration: none;
+  background-color: #bcbcb7;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border-color: #bcbcb7;
+  border-style: none;
+  cursor: pointer;
 }
-
-.return-button a:hover {
-  color: #e5e5e1;
+.return-button button:hover {
+  background-color: #aaaaa4;
 }
 
 .filter-nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
