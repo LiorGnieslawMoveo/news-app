@@ -18,6 +18,8 @@ export default function ReturnButton() {
   const handleBack = () => {
     if (currentPath === "/archive") {
       router.push("/");
+    } else if (currentPath === "/news") {
+      router.push("/");
     } else {
       router.back();
     }
